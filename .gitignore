@@ -1,0 +1,24 @@
+# Large binaries are distributed via GitHub Releases, not the git tree.
+# This keeps the repo lean — the auto-updater downloads from Release assets.
+
+# DLLs and executables
+*.dll
+*.exe
+
+# Models (distributed separately)
+*.onnx
+*.pt
+
+# Build artifacts
+*.obj
+*.pdb
+*.lib
+*.exp
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Temp
+*.tmp
+*.log
